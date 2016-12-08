@@ -10,7 +10,7 @@ var SmartWatch = require('../lib/SmartWatch');
 var SmartPhone = require('../lib/SmartPhone');
 
 describe('Phone', function() {
-  
+   
   var phone;
   beforeEach(function () {
     phone = new Phone(5555555);
